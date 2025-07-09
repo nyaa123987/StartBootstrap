@@ -1,0 +1,31 @@
+.first-section {
+    background-color: #1ABC9C;
+    height: 570px;
+}
+
+.first-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.first-section-image1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.first-section-p1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.first-section-image2 {
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.first-section-p2 {
+    font-size: 18px;
+}
+

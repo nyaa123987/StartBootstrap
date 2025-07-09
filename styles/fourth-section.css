@@ -1,0 +1,65 @@
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.fourth-section-para {
+    font-size: 40px;
+}
+
+.fourth-section-img {
+    width: 180px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.fourth-section-input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-left: -270px;
+}
+
+.line {
+    width: 500px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.fourth-section-button { 
+    background-color: #1ABC9C;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    margin-left: -400px;
+    transition: opacity 0.15s, color 2s;
+}
+
+.line1 {
+    width: 500px;
+    margin-top: 150px;
+}
+
+.fourth-section-button:hover {
+    background-color: white;
+    color: #1ABC9C;
+    border-color: #1ABC9C;
+    border-style: solid;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    height: 18px; /* Reserve space to avoid layout shift */
+}
